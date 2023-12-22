@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/presentation/widgets/body/timbacsi/w_timbacsi.dart';
 import 'package:portfolio/presentation/widgets/body/tuvantructuyen/w_tuvantructuyen.dart';
+import 'package:portfolio/presentation/widgets/body/dichvuchamsoctainha/w_dichvuchamsoctainha.dart';
+import 'package:portfolio/presentation/widgets/body/phanthuong/w_phanthuong.dart';
+import 'package:portfolio/presentation/widgets/body/market/w_market.dart';
+import 'package:portfolio/presentation/widgets/body/quanlybenh/w_quanlybenh.dart';
+import 'package:portfolio/presentation/widgets/body/suckhoetamthan/w_suckhoetamthan.dart';
 
 import '../../../../core/utils/app_colors.dart';
 import '../../../../core/utils/app_extensions.dart';
@@ -36,6 +41,17 @@ class AboutMeSection extends StatelessWidget {
           // const BasicServicesGrid(),
           const SizedBox(height: 80),
           const w_tuvantructuyen(),
+          const SizedBox(height: 80),
+          const w_dichvuchamsoctainha(),
+          const SizedBox(height: 80),
+          const w_suckhoetamthan(),
+          const SizedBox(height: 80),
+          const w_quanlybenh(),
+          const SizedBox(height: 80),
+          const w_market(),
+          const SizedBox(height: 80),
+          const w_phanthuong(),
+
           // const DetailedServicesSection(),
         ],
       ),

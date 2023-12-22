@@ -7,8 +7,8 @@ import '../../../../core/utils/app_enums.dart';
 import '../../../../core/utils/app_extensions.dart';
 import 'package:gap/gap.dart';
 
-class w_tuvantructuyen_phai extends StatelessWidget {
-  const w_tuvantructuyen_phai({super.key});
+class w_suckhoetamthan_phai extends StatelessWidget {
+  const w_suckhoetamthan_phai({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,28 +17,26 @@ class w_tuvantructuyen_phai extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "TƯ VẤN TRỰC TUYẾN TẠI SÀI GÒN VỚI DOCTOR SAIGON",
+            "SỨC KHOẺ TÂM THẦN DOCTOR SAIGON",
             style: AppStyles.s32,
           ),
           Text(
-            "Truy cập một bộ đầy đủ các dịch vụ chăm sóc sức khỏe và thể chất để chăm sóc mọi khía cạnh nhu cầu chăm sóc sức khỏe của bạn.",
+            "Nói chuyện với các cố vấn và nhà tâm lý học được chứng nhận một cách bí mật với chuyên gia của DOCTOR SAIGON.",
             style: AppStyles.s14,
+          ),
+          Text(
+            "Nói chuyện với một chuyên gia có trình độ để huấn luyện tư duy và sức khỏe tinh thần một cách bí mật thông qua tư vấn video trực tuyến. Duyệt qua và chọn một bác sĩ theo lựa chọn của bạn, và đặt một cuộc hẹn vào thời điểm thuận tiện cho bạn.",
+            style: AppStyles.s12,
           ),
           const SizedBox(
             height: 15,
           ),
           Wrap(
             children: [
-              getCard("Phòng khám ảo DoctorSaigon",
-                  'assets/images/phongkhamao.png'),
-              getCard("Phòng khám vệ tinh DoctorSaigon",
-                  'assets/images/hospital.png'),
-              getCard("Dịch vụ chăm sóc tại nhà DoctorSaigon",
-                  'assets/images/chamsoctainha.png'),
-              getCard("Chương trình quản lý bệnh nhân mãn tính",
-                  'assets/images/quanlybenhnhanmantinh.png'),
-              getCard("Chợ DoctorSaigon", 'assets/images/chodoctorsaigon.png'),
-              getCard("Sức khỏe tâm thần", 'assets/images/suckhoetinhthan.png'),
+              getCard("", 'assets/images/healthcare01.png'),
+              getCard("", 'assets/images/ongngheyte01.png'),
+              getCard("", 'assets/images/chamsoctainha.png'),
+              getCard("", 'assets/images/home01.png'),
             ],
           )
         ],

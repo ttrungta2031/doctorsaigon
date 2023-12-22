@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/presentation/widgets/body/tuvantructuyen/w_tuvantructuyen_phai.dart';
-import 'package:portfolio/presentation/widgets/body/tuvantructuyen/w_tuvantructuyen_trai.dart';
+import 'package:portfolio/presentation/widgets/body/suckhoetamthan/w_suckhoetamthan_trai.dart';
+import 'package:portfolio/presentation/widgets/body/suckhoetamthan/w_suckhoetamthan_phai.dart';
 
 import '../../../../core/utils/app_constants.dart';
 import '../../../../core/utils/app_enums.dart';
 import '../../../../core/utils/app_extensions.dart';
 
-class w_tuvantructuyen extends StatelessWidget {
-  const w_tuvantructuyen({super.key});
+class w_suckhoetamthan extends StatelessWidget {
+  const w_suckhoetamthan({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,18 +18,18 @@ class w_tuvantructuyen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
-                  child: w_tuvantructuyen_phai(),
+                  child: w_suckhoetamthan_trai(),
                 ),
                 SizedBox(width: 32),
-                Expanded(child: w_tuvantructuyen_trai()),
+                Expanded(child: w_suckhoetamthan_phai()),
               ],
             )
           : const Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                w_tuvantructuyen_phai(),
+                w_suckhoetamthan_trai(),
                 SizedBox(height: 32),
-                w_tuvantructuyen_trai(),
+                w_suckhoetamthan_phai()
               ],
             ),
     );

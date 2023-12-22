@@ -7,8 +7,8 @@ import '../../../../core/utils/app_enums.dart';
 import '../../../../core/utils/app_extensions.dart';
 import 'package:gap/gap.dart';
 
-class w_tuvantructuyen_phai extends StatelessWidget {
-  const w_tuvantructuyen_phai({super.key});
+class w_market_phai extends StatelessWidget {
+  const w_market_phai({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,28 +17,26 @@ class w_tuvantructuyen_phai extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "TƯ VẤN TRỰC TUYẾN TẠI SÀI GÒN VỚI DOCTOR SAIGON",
+            "PHIÊN CHỢ VỚI DOCTOR SAIGON",
             style: AppStyles.s32,
           ),
           Text(
-            "Truy cập một bộ đầy đủ các dịch vụ chăm sóc sức khỏe và thể chất để chăm sóc mọi khía cạnh nhu cầu chăm sóc sức khỏe của bạn.",
+            "Mua sắm sức khỏe & chăm sóc sức khỏe trong ứng dụng được quản lý đặc biệt DOCTOR SAIGON.",
             style: AppStyles.s14,
+          ),
+          Text(
+            "Ngoài việc tư vấn trực tuyến với bác sĩ, bạn cũng có thể mua sắm ảo với DA. Mua sắm tất cả các nhu cầu về sức khỏe và thể chất của bạn trên DOCTORSAIGON Marketplace và nhận các mặt hàng được giao cho bạn trong phạm vi Việt Nam. Truy cập vào nhiều mặt hàng từ thực phẩm bổ sung dinh dưỡng, chăm sóc da, quản lý cân nặng cho đến các sản phẩm dành cho lối sống và thể dục – tất cả ở cùng một nơi..",
+            style: AppStyles.s12,
           ),
           const SizedBox(
             height: 15,
           ),
           Wrap(
             children: [
-              getCard("Phòng khám ảo DoctorSaigon",
-                  'assets/images/phongkhamao.png'),
-              getCard("Phòng khám vệ tinh DoctorSaigon",
-                  'assets/images/hospital.png'),
-              getCard("Dịch vụ chăm sóc tại nhà DoctorSaigon",
-                  'assets/images/chamsoctainha.png'),
-              getCard("Chương trình quản lý bệnh nhân mãn tính",
-                  'assets/images/quanlybenhnhanmantinh.png'),
-              getCard("Chợ DoctorSaigon", 'assets/images/chodoctorsaigon.png'),
-              getCard("Sức khỏe tâm thần", 'assets/images/suckhoetinhthan.png'),
+              getCard("", 'assets/images/healthcare01.png'),
+              getCard("", 'assets/images/ongngheyte01.png'),
+              getCard("", 'assets/images/chamsoctainha.png'),
+              getCard("", 'assets/images/home01.png'),
             ],
           )
         ],

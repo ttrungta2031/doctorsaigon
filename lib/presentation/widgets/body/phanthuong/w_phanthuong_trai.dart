@@ -7,8 +7,8 @@ import '../../../../core/utils/app_enums.dart';
 import '../../../../core/utils/app_extensions.dart';
 import 'package:gap/gap.dart';
 
-class w_tuvantructuyen_phai extends StatelessWidget {
-  const w_tuvantructuyen_phai({super.key});
+class w_phanthuong_trai extends StatelessWidget {
+  const w_phanthuong_trai({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,28 +17,26 @@ class w_tuvantructuyen_phai extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "TƯ VẤN TRỰC TUYẾN TẠI SÀI GÒN VỚI DOCTOR SAIGON",
+            "PHẦN THƯỞNG CỦA DOCTOR SAIGON",
             style: AppStyles.s32,
           ),
           Text(
-            "Truy cập một bộ đầy đủ các dịch vụ chăm sóc sức khỏe và thể chất để chăm sóc mọi khía cạnh nhu cầu chăm sóc sức khỏe của bạn.",
+            "Kiếm điểm thưởng khi bạn không dùng tiền mặt với DOCTOR SAIGON PAY - Tích điểm đổi thưởng ưu đãi và tiện lợi",
             style: AppStyles.s14,
+          ),
+          Text(
+            "Theo dõi lịch sử chi tiêu và giao dịch của bạn và kiếm thêm gấp 2 lần điểm khi bạn giao dịch với DOCTORSAIGON Pay. Tích lũy điểm của bạn để đổi tín dụng và phần thưởng chăm sóc sức khỏe hấp dẫn từ Thị trường.",
+            style: AppStyles.s12,
           ),
           const SizedBox(
             height: 15,
           ),
           Wrap(
             children: [
-              getCard("Phòng khám ảo DoctorSaigon",
-                  'assets/images/phongkhamao.png'),
-              getCard("Phòng khám vệ tinh DoctorSaigon",
-                  'assets/images/hospital.png'),
-              getCard("Dịch vụ chăm sóc tại nhà DoctorSaigon",
-                  'assets/images/chamsoctainha.png'),
-              getCard("Chương trình quản lý bệnh nhân mãn tính",
-                  'assets/images/quanlybenhnhanmantinh.png'),
-              getCard("Chợ DoctorSaigon", 'assets/images/chodoctorsaigon.png'),
-              getCard("Sức khỏe tâm thần", 'assets/images/suckhoetinhthan.png'),
+              getCard("", 'assets/images/healthcare01.png'),
+              getCard("", 'assets/images/ongngheyte01.png'),
+              getCard("", 'assets/images/chamsoctainha.png'),
+              getCard("", 'assets/images/home01.png'),
             ],
           )
         ],
